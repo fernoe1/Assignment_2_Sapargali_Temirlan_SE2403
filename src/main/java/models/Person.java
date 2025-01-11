@@ -1,5 +1,7 @@
 package models;
 
+import models.interfaces.Payable;
+
 public class Person implements Payable, Comparable<Person> {
     private int id;
     static int id_gen;
